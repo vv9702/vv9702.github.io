@@ -1,25 +1,28 @@
-document.getElementById("btnSave").onclick =function(){
-    //alert("ok");
-    lastName =document.getElementById("ln").value;
-    firstName =document.getElementById("fn").value;
-    phoneNumber =document.getElementById("phone").value;
+function removeRow(r){ 
+    var i=r.parentNode.parentNode.rowIndex;
+    document.getElementById('myTable').deleteRow(i);
 }
 
-table = document.getElementById("mytable");
-tr = document.getElementById("tr");
-td1 = document.getElementById("td");
-td2 = document.getElementById("td");
-td3 = document.getElementById("td");
+document.getElementById("btnSave").onclick=function(){
+    lastName = document.getElementById("ln").value;
+    firstName = document.getElementById("fn").value;
+    phoneNumber = document.getElementById("phone").value;
+    
+    table = document.getElementById("myTable");
+    tr = document.createElement("tr");
+    td1 = document.createElement("td");
+    td2 = document.createElement("td");
+    td3 = document.createElement("td");
+    td4 = document.createElement("td");
+    td1.innerText = lastName;
+    td2.innerText = firstName;
+    td3.innerText = phoneNumber;
 
-td1.innerText =lastName;
-td1.innerText =firstName;
-td1.innerText =phoneNumber;
+    td4.innerHTML = "<input type='button' name=cmdDelete value='Del' onClick='removeRow(this);'>";
 
-tr.appendChild(td1);
-tr.appendChild(td2);
-tr.appendChild(td3);
-
-/*tr.innerHTML = "<td>" + lastName + "</td>";
-tr.innerHTML = "<td>" + firstName + "</td>";
-tr.innerHTML = "<td>" + phoneNumber + "</td>";*/
-table.appendChild(tr)
+    tr.appendChild(td1);
+    tr.appendChild(td2);
+    tr.appendChild(td3);
+    tr.appendChild(td4);
+    table.appendChild(tr);
+}

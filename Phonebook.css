@@ -14,13 +14,19 @@ body{
 }
 
 #btnSave {
-    padding: 20px;
+    background:cadetblue;
+    padding: center;
     max-width: 50px;
     min-width: 20px;
     border : 1px solid #ff00;
+    
 
 }
 
     table{
-
+        border:1px solid #ddd;
+        width :100%; 
+    }
+    table td{
+        border: ipx solid #ddd;
     }
