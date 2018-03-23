@@ -24,9 +24,9 @@ body{
 }
 
     table{
-        border:1px solid #ddd;
-        width :100%; 
+        border: 1px solid #ddd;
+        width : 100%; 
     }
     table td{
-        border: ipx solid #ddd;
+        border: 1px solid #ddd;
     }
