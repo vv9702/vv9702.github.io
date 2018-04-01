@@ -1,0 +1,24 @@
+title{
+    margin:left;
+}
+#main{
+    margin: left;
+    max-width: 500px;
+}
+#btnSave{
+    padding:5px;
+    margin-top: 5px;
+    background: cadetblue;
+    color:#fff;
+    border:0;
+    cursor: pointer;
+}
+table{
+    border:1px solid #ddd;
+    width:100%;
+}
+
+mark {
+  background-color: yellow;
+  color: black;
+}

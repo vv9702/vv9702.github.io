@@ -1,0 +1,39 @@
+
+<!DOCTYPE HTML>
+
+<html lang="en"> <!--언어 = 영어-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kim Beom-Seok 15054008 &middot; Personal Page </title>
+    <link rel="stylesheet" type="text/css" href="./analysis.css"/>
+</head>
+
+<body>
+    <center>
+    <div id="title"><h1>Phone Book</h1></div>
+    <div id="main" style="text-align:left"> <!--왼쪽정렬-->
+        Last Name <br/><input id="ln" type="text"/>
+        <br/>First Name <br/><input id="fn" type="text"/>
+        <br/>Phone Number <br/><input id="phone" type="text"/>
+        <br/><button id="btnSave">Save</button>  
+        <hr/>
+        <form name="form1">
+          FirstName: <input type="text" id="cb1"> 
+          <input type="button" value="확인" onclick="Check();"><br/><br/>
+     </form>
+        <table id="insertTable">
+            <tr>
+              <th onclick='lnSort();'>&#9660 Last Name</th>
+                <th onclick='fnSort();'>&#9660 First Name</th>
+                <th onclick='phoneSort();'>&#9660 Phone number</th>
+            </tr>
+        </table>
+    </div>
+</center>
+</body>
+<script src="./analysis.js"></script>
+</html>
