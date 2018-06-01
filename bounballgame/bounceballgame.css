@@ -1,0 +1,59 @@
+body{
+    background:#eac;
+}
+
+#main{
+    width:960px;
+    min-height:680px;
+    padding:25px;
+    margin:auto;
+    background:#fff;
+    text-align: center;
+}
+
+#title{
+    -webkit-margin-after: 0.1em;
+}
+
+#version{
+    -webkit-margin-before: 0em;
+    font-weight:normal;
+}
+
+#score{
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0.5em;
+    font-weight:normal;
+    float: left;
+    margin-left:40px; 
+}
+
+#scorenum{
+    margin-left:5px;
+    float: left;
+}
+
+#score{
+    float: left;
+}
+
+#my_canvas{
+    margin:auto;
+    border:1px solid #555;
+}
+
+#S{
+    -webkit-margin-before: 0em;
+    font-weight:normal;
+    float: left;
+    margin-left:20px;
+}
+
+#dev{
+    float:right;
+    margin-right: 30px;
+}
+
+#name{
+    font-weight: bold;
+}
