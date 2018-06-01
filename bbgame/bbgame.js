@@ -17,18 +17,18 @@ document.addEventListener("keydown", keyDownHandler, false);
 document.addEventListener("keyup", keyUpHandler, false);
 
 function keyDownHandler(e) {
-    if(e.keyCode == 68) {
+    if(e.keyCode == 65) {
         rightPressed = true;
     }
-    else if(e.keyCode == 83) {
+    else if(e.keyCode == 68) {
         leftPressed = true;
     }
 }
 function keyUpHandler(e) {
-    if(e.keyCode == 68) {
+    if(e.keyCode == 65) {
         rightPressed = false;
     }
-    else if(e.keyCode == 83) {
+    else if(e.keyCode == 68) {
         leftPressed = false;
     }
 }
