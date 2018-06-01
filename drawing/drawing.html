@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Paint</title>
+    <link rel="stylesheet" type="text/css" href="drawing.css"/>
+</head>
+<body>
+    <div id="main">
+
+        <div id="toolbar">
+            <div id="rad">
+                Pen Size <span id="radval">5</span>
+                <div id="decrad" class="radcontrol">-</div>
+                <div id="incrad" class="radcontrol">+</div>
+            </div>
+            <div id="colors">
+
+            </div>
+
+            <button id="eraser">Eraser</button>
+        </div>
+
+        <canvas width="500" height="500" id="mycanvas">
+
+        </canvas>
+    </div>
+
+</body>
+<script src="drawing.js"></script>
+</html>
