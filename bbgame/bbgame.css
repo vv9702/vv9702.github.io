@@ -1,12 +1,12 @@
 body{
-    background:#f99;
+    background : skyblue;
 }
 #main{
     width:960px;
     max-width: 100%;
     min-height: 500px;
     margin: auto;
-    background: #fff;
+    background: yellowgreen;
     text-align: center;
 }
 #mycanvas{

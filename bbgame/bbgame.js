@@ -15,17 +15,7 @@ var lives=3;
 
 document.addEventListener("keydown", keyDownHandler, false);
 document.addEventListener("keyup", keyUpHandler, false);
-/*
-var btn = document.querySelector('input');
-btn.addEventListener('click', updateBtn);
-function updateBtn() {
-  if (btn.value === 'Start') {
-    btn.value = 'Stop';
-  } else {
-    btn.value = 'Start';
-  }
-}
-*/
+
 function keyDownHandler(e) {
     if(e.keyCode == 68) {
         rightPressed = true;
